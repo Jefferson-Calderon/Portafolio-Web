@@ -29,7 +29,7 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color: #0062cc;
+    color: #ffbf35;
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -45,10 +45,10 @@ html{
     text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-    color: #0062cc;
+    color: #ffbf35;
 }
 .nav-responsive{
-    background-color: #0062cc;
+    background-color: #ffbf35;
     color:#fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -75,7 +75,7 @@ html{
 }
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 10px solid #0062cc;
+    border: 10px solid #ffbf35;
     display: block;
     width: 80%;
     margin: auto;
@@ -104,7 +104,7 @@ html{
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{
-    background-color: #0062cc;
+    background-color: #ffbf35;
 }
 .sobremi{
     background-color: 171719;
@@ -128,7 +128,7 @@ html{
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: #0062cc;
+    color: #ffbf35;
     font-weight: bold;
 }
 .sobremi .fila{
@@ -151,11 +151,11 @@ html{
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #0062cc;
+    color: #ffbf35;
     width: 130px;
 }
 .sobremi .fila .col ul li span{
-    background-color: #0062cc;
+    background-color: #ffbf35;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -176,7 +176,7 @@ html{
     justify-content: center;
     transition: .3s;
 }.sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: #0062cc;
+    background-color: #ffbf35;
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
@@ -201,7 +201,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #0062cc;
+    background-color: #ffbf35;
     z-index: -1;
     transition: 1s;
 }
@@ -256,7 +256,7 @@ html{
 .curriculum .fila .item{
     padding: 25px;
     margin-bottom: 30px;
-    background-color: #0062cc;
+    background-color: #ffbf35;
     position: relative;
     border-radius: 15px;
 }
@@ -352,7 +352,7 @@ html{
     margin-bottom: -5px;
 }
 .skills_head h2 span{
-    color: #0062cc;
+    color: #ffbf35;
 }
 .skills_main{
     width: 100%;
@@ -382,7 +382,7 @@ html{
     width: 50%;
     height: 100%;
     position: absolute;
-    background-color: #0062cc;
+    background-color: #ffbf35;
     border-radius: 25px;
 }
 .skill_bar .bar .html{
@@ -587,7 +587,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #0062cc;
+    background-color: #ffbf35;
     z-index: -1;
     transition: 1s;
 }
@@ -613,7 +613,7 @@ html{
     margin-bottom: 20px;
 }
 .contacto .col .info ul li i{
-    color: #0062cc;
+    color: #ffbf35;
     display: inline-block;
     margin-right: 20px;
 }
@@ -645,7 +645,7 @@ footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #0062cc;
+    background-color: #ffbf35;
     color: #fff;
     position: absolute;
     left: 50%;

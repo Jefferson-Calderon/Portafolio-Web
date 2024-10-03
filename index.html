@@ -545,33 +545,33 @@
 			</div>
 			<div class="row d-flex contact-info mb-5">
 				<div class="col-md-8 col-lg-4 d-flex ftco-animate">
-					<div class="align-self-stretch box p-4 text-center shadow-sm">
+					<div class="align-self-stretch box p-4 text-center">
 						<div class="icon d-flex align-items-center justify-content-center mb-3"
 							style="background-color: #ffbf35; padding: 10px; border-radius: 50%;">
 							<i class="fa fa-map-marker" style="font-size: 36px; color: #13357b;"></i>
 						</div>
-						<p style="color: #fff; text-shadow: 2px 2px 4px #ffbf35;">Paita - Piura, Perú</p>
+						<p style="color: #fff;">Paita - Piura, Perú</p>
 					</div>
 				</div>
 				<div class="col-md-8 col-lg-4 d-flex ftco-animate">
-					<div class="align-self-stretch box p-4 text-center shadow-sm">
+					<div class="align-self-stretch box p-4 text-center">
 						<div class="icon d-flex align-items-center justify-content-center mb-3"
 							style="background-color: #ffbf35; padding: 10px; border-radius: 50%;">
 							<i class="fa fa-phone" style="font-size: 36px; color: #13357b;"></i>
 						</div>
 						<p><a href="tel://+51 981132139"
-								style="color: #fff; text-decoration: none; text-shadow: 2px 2px 4px #ffbf35;">+51 981
+								style="color: #fff; text-decoration: none;">+51 981
 								132 139</a></p>
 					</div>
 				</div>
 				<div class="col-md-8 col-lg-4 d-flex ftco-animate">
-					<div class="align-self-stretch box p-4 text-center shadow-sm">
+					<div class="align-self-stretch box p-4 text-center">
 						<div class="icon d-flex align-items-center justify-content-center mb-3"
 							style="background-color: #ffbf35; padding: 10px; border-radius: 50%;">
 							<i class="fa fa-envelope" style="font-size: 36px; color: #13357b;"></i>
 						</div>
 						<p><a href="mailto:jeffersoncalderonburgos53@gmail.com"
-								style="color: #fff; text-decoration: none; text-shadow: 2px 2px 4px #ffbf35;">jeffersoncalderonburgos53@gmail.com</a>
+								style="color: #fff; text-decoration: none;">jeffersoncalderonburgos53@gmail.com</a>
 						</p>
 					</div>
 				</div>
@@ -584,13 +584,13 @@
 						</p>
 						
 						<div class="form-group position-relative">
-							<input type="text" name="name" id="name" class="form-control" placeholder="Tu Nombre" required
+							<input type="text" name="name" id="name" class="form-control" placeholder="Nombre" required
 								style="background-color: transparent; color: #ffbf35; border-color: #13357b;">
 							<i class="fas fa-user position-absolute" style="top: 12px; right: 15px; color: #13357b;"></i>
 						</div>
 					
 						<div class="form-group position-relative">
-							<input type="email" name="email" id="email" class="form-control" placeholder="Tu Correo Electrónico" required
+							<input type="email" name="email" id="email" class="form-control" placeholder="Correo Electrónico" required
 								style="background-color: transparent; color: #ffbf35; border-color: #13357b;">
 							<i class="fas fa-envelope position-absolute" style="top: 12px; right: 15px; color: #13357b;"></i>
 						</div>
@@ -648,7 +648,7 @@
 		</div>
 
 		<div style="margin-bottom: 20px;">
-			<p>Email: <a href="mailto:jeffersoncalderonburgos53@gmail.com<"
+			<p>Email: <a href="mailto:jeffersoncalderonburgos53@gmail.com"
 					style="color: #f8c742;">jeffersoncalderonburgos53@gmail.com</a></p>
 			<p>Teléfono: <a href="tel:+51 981 132 139" style="color: #f8c742;">+51 981 132 139</a></p>
 		</div>
@@ -663,7 +663,7 @@
 	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
 			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
 			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-				stroke="#F96D00" />
+				stroke="#13357b" />
 		</svg></div>
 
 	<!-- Modal Instituto-->
@@ -782,7 +782,30 @@
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 
-
+<!-- CSS para el efecto hover -->
+<style>
+	.circle-icon {
+	  background-color: #fff;
+	  padding: 10px;
+	  border-radius: 50%;
+	  transition: background-color 0.3s ease, color 0.3s ease;
+	}
+  
+	.circle-icon i {
+	  color: #13357b;
+	  transition: color 0.3s ease;
+	}
+  
+	/* Estilos para el hover */
+	.circle-icon:hover {
+	  background-color: #13357b;
+	}
+  
+	.circle-icon:hover i {
+	  color: #fff;
+	}
+  </style>
+	  
 </body>
 
 </html>

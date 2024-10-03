@@ -12537,7 +12537,7 @@ h5,
 }
 
 .bg-dark {
-  background: #0062cc !important;
+  background: #ffbf35 !important;
 }
 
 .bg-primary {
@@ -12683,7 +12683,7 @@ h5,
 
 .ftco-about .counter-wrap .text p span.number {
   font-weight: 600;
-  color: #ffbf35;
+  color: #13357b;
 }
 
 .resume-wrap {
@@ -13389,7 +13389,7 @@ textarea.form-control {
   display: block;
   width: 100%;
   text-align: center;
-  background: #0062cc;
+  background: #ffbf35;
   padding: 30px 20px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -13400,14 +13400,18 @@ textarea.form-control {
 .ftco-counter .text strong.number {
   font-weight: 700;
   font-size: 30px;
-  color: #ffbf35;
+  color: #13357b;
   display: block;
+  text-shadow: 2px 2px 4px white;
 }
 
 .ftco-counter .text span {
   display: block;
-  font-size: 16px;
-  color: rgba(255, 255, 255);
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: #13357b;
+  text-shadow: 2px 2px 4px white;
 }
 
 @media (max-width: 767.98px) {

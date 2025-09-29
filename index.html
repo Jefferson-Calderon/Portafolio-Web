@@ -664,83 +664,13 @@
 		</div>
 	</footer>
 
-<!-- Loader estilo programador con icono -->
-<div id="ftco-loader" class="show fullscreen d-flex justify-content-center align-items-center">
-  <div class="loader-box text-center">
-    <!-- Icono de programación -->
-    <div class="loader-icon mb-3">
-      <i class="fas fa-code fa-3x text-success"></i>
-    </div>
-    
-    <!-- Texto tipo terminal -->
-    <pre class="loader-text mb-3">
-<span class="text-primary">{</span> Cargando <span class="text-success">. . .</span> <span class="text-primary">}</span>
-    </pre>
-
-    <!-- Animación de puntos -->
-    <div class="loader-dots">
-      <span>.</span>
-      <span>.</span>
-      <span>.</span>
-    </div>
-  </div>
-</div>
-
-<style>
-  #ftco-loader {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background: #0d1117; /* estilo terminal */
-    z-index: 9999;
-  }
-
-  .loader-box {
-    font-family: "Fira Code", monospace;
-    color: #c9d1d9;
-    font-size: 1.2rem;
-  }
-
-  .loader-icon i {
-    animation: pulse 1.5s infinite;
-  }
-
-  .loader-text {
-    margin: 0;
-    color: #58a6ff;
-    font-weight: bold;
-  }
-
-  .loader-dots span {
-    font-size: 2rem;
-    color: #58a6ff;
-    opacity: 0;
-    animation: blink 1.5s infinite;
-  }
-
-  .loader-dots span:nth-child(1) {
-    animation-delay: 0s;
-  }
-  .loader-dots span:nth-child(2) {
-    animation-delay: 0.3s;
-  }
-  .loader-dots span:nth-child(3) {
-    animation-delay: 0.6s;
-  }
-
-  @keyframes blink {
-    0% { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 0; }
-  }
-
-  @keyframes pulse {
-    0% { transform: scale(1); opacity: 0.7; }
-    50% { transform: scale(1.2); opacity: 1; }
-    100% { transform: scale(1); opacity: 0.7; }
-  }
-</style>
-
+                    <!-- loader -->
+                    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+                            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4"
+                                stroke="#eeeeee" />
+                            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4"
+                                stroke-miterlimit="10" stroke="#13357b" />
+                        </svg></div>
 
 	<!-- Modal Instituto-->
 	<div class="modal fade" id="instituto" tabindex="-1" aria-labelledby="insigniaModalLabel" aria-hidden="true">

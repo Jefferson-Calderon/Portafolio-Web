@@ -654,8 +654,13 @@
 		</div>
 
 		<div>
-			<p>&copy; 2025 Portafolio Creado y Diseñado por Jefferson Calderón</p>
+		  <p>&copy; <span id="year"></span> Portafolio Creado y Diseñado por Jefferson Calderón</p>
 		</div>
+		
+		<script>
+		  document.getElementById("year").textContent = new Date().getFullYear();
+		</script>
+
 		</div>
 	</footer>
 

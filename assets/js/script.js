@@ -66,7 +66,7 @@ window.addEventListener('load', () => {
 
     actualizarSeccionActiva() {
       const scrollPos = window.scrollY + 150;
-      const secciones = ['inicio', 'servicios', 'proyectos', 'sobre-mi', 'formacion', 'contacto'];
+      const secciones = ['inicio', 'sobre-mi', 'formacion', 'servicios', 'proyectos', 'contacto'];
       for (let id of secciones) {
         const elemento = document.getElementById(id);
         if (elemento && scrollPos >= elemento.offsetTop) {
